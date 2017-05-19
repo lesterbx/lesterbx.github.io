@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gallery_weddings.xsl"?>
+<gallery>
+		<image id="1" file="../images/gallery_weddings/w01.png" file-tn="../images/gallery_weddings/w01-tn.png"/>
+		<image id="2" file="../images/gallery_weddings/w02.png" file-tn="../images/gallery_weddings/w02-tn.png"/>
+		<image id="3" file="../images/gallery_weddings/w03.png" file-tn="../images/gallery_weddings/w03-tn.png"/>
+		<image id="4" file="../images/gallery_weddings/w04.png" file-tn="../images/gallery_weddings/w04-tn.png"/>
+		<image id="5" file="../images/gallery_weddings/w05.png" file-tn="../images/gallery_weddings/w05-tn.png"/>
+		<image id="6" file="../images/gallery_weddings/w06.png" file-tn="../images/gallery_weddings/w06-tn.png"/>
+		<image id="7" file="../images/gallery_weddings/w07.png" file-tn="../images/gallery_weddings/w07-tn.png"/>
+		<image id="8" file="../images/gallery_weddings/w08.png" file-tn="../images/gallery_weddings/w08-tn.png"/>
+		<image id="9" file="../images/gallery_weddings/w09.png" file-tn="../images/gallery_weddings/w09-tn.png"/>
+		<image id="10" file="../images/gallery_weddings/w10.png" file-tn="../images/gallery_weddings/w10-tn.png"/>
+		<image id="11" file="../images/gallery_weddings/w11.png" file-tn="../images/gallery_weddings/w11-tn.png"/>
+		<image id="12" file="../images/gallery_weddings/w12.png" file-tn="../images/gallery_weddings/w12-tn.png"/>
+</gallery>

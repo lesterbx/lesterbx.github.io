@@ -1,0 +1,158 @@
+
+@keyframes header_down
+{
+    from
+    {
+        top: -10%;
+
+        opacity: 0;
+    }
+    to
+    {
+        top: 0;
+
+        opacity: .9;
+    }
+}
+@keyframes dropdown_anim
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+header
+{
+    position: fixed;
+    z-index: 4;
+
+    width: 100%;
+    min-width: 750px;
+    height: 62px;
+
+    -webkit-animation-name: header_down;
+       -moz-animation-name: header_down;
+            animation-name: header_down;
+    -webkit-animation-duration: 2s;
+       -moz-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+       -moz-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+
+    opacity: .9;
+    background-color: white;
+    -webkit-box-shadow: 0 1px 5px 0 gray;
+            box-shadow: 0 1px 5px 0 gray;
+}
+#logo
+{
+    font-family: 'Cookie', cursive;
+    font-size: 250%;
+
+    position: absolute;
+    bottom: -5%;
+    left: 5%;
+
+    text-decoration: none;
+
+    color: #333;
+}
+#logo:hover
+{
+    color: #666;
+}
+nav
+{
+    position: absolute;
+    right: 8%;
+    bottom: 25%;
+
+    min-width: 500px;
+
+    text-align: center;
+}
+
+.menu_link
+{
+    font-style: italic;
+
+    margin-left: 8%;
+    padding-bottom: 4px;
+
+    text-decoration: none;
+
+    color: #4c4c4c;
+}
+
+.menu_link:hover
+{
+    color: #7f7f7f;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.drop_item
+{
+    cursor: default;
+}
+
+.dropdown
+{
+    font-style: italic;
+    line-height: 200%;
+
+    position: absolute;
+    z-index: -1;
+
+    min-width: 40%;
+    padding: 2%;
+
+    animation-name: dropdown_anim;
+    animation-duration: 1s;
+    text-align: left;
+
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: white;
+
+}
+.menu
+{
+    display: inline;
+}
+#dropdown_events
+{
+    left: 4%;
+
+    display: none;
+}
+#menu_events:hover #dropdown_events
+{
+    display: block;
+}
+
+#dropdown_locations
+{
+    left: 26%;
+
+    display: none;
+}
+#menu_locations:hover #dropdown_locations
+{
+    display: block;
+}
+
+#dropdown_services
+{
+    left: 53%;
+
+    display: none;
+}
+#menu_services:hover #dropdown_services
+{
+    display: block;
+}
