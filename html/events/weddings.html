@@ -12,7 +12,7 @@
 
 	<script src="../../scripts/script_shadowbox.js"></script>
 </head>
-<body onscroll="moveBanner()">
+<body>
 
 	<header>
 		<a id="logo" href="../../index.html">MyEvents</a>
@@ -78,16 +78,16 @@
 	</main>
 	
 	<div id="shadowbox">
-		<a onclick=""><img src="../../images/close.png" width="50" height="50" id="close_box"></a>
+		<a onclick="closeBox()"><img src="../../images/close.png" width="50" height="50" id="close_box"></a>
 		<table id="shadowbox_table">
 			<td>
-				<a onclick=""><img src="../../images/arrow_l.png" width="50" height="50" class="arrow"></a>
+				<a onclick="prevImg()"><img src="../../images/arrow_l.png" width="50" height="50" class="arrow"></a>
 			</td>
 			<td id="img_td">
 				<img src="" id="shadowbox_img">
 			</td>
 			<td>
-				<a onclick=""><img src="../../images/arrow_r.png" width="50" height="50" class="arrow"></a>
+				<a onclick="nextImg()"><img src="../../images/arrow_r.png" width="50" height="50" class="arrow"></a>
 			</td>
 			</tr>
 		</table>
