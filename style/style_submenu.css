@@ -1,0 +1,49 @@
+#submenu
+{
+    font-style: italic;
+
+    position: fixed;
+    z-index: 1;
+
+    width: 25%;
+    min-width: 200px;
+    height: 100%;
+    padding-top: 60px;
+
+    text-align: center;
+
+    background-image: url('../images/cloth.jpg');
+}
+
+.submenu_item
+{
+    width: 100%;
+    margin-bottom: -3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.submenu_item > a
+{
+    text-decoration: none;
+
+    color: #4c4c4c;
+}
+
+.submenu_item > a:hover
+{
+    color: #7f7f7f;
+}
+
+#selected_item
+{
+    opacity: .8;
+    background-color: white;
+}
+
+@media screen and (max-width: 800px)
+{
+    #submenu
+    {
+        display: none;
+    }
+}

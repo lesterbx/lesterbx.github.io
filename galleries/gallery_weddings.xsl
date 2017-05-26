@@ -7,7 +7,7 @@
                 </head>
                 <body>
           	   	<xsl:for-each select="gallery/image">
-          	   	   <a href=""><img src="{@file-tn}" class="gallery_image" /></a>
+          	   	   <a onclick="parent.openBox({@id},'gallery_weddings')"><img src="{@file-tn}" class="gallery_image" /></a>
           	   	</xsl:for-each>
                </body>
                </html>

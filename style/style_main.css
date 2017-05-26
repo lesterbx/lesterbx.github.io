@@ -7,47 +7,6 @@ body
     margin: 0;
 }
 
-#submenu
-{
-    font-style: italic;
-
-    position: fixed;
-    z-index: 1;
-
-    width: 25%;
-    min-width: 200px;
-    height: 100%;
-    padding-top: 60px;
-
-    text-align: center;
-
-    background-image: url('../images/cloth.jpg');
-}
-
-.submenu_item
-{
-    width: 100%;
-    margin-bottom: -3%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-.submenu_item > a
-{
-    text-decoration: none;
-
-    color: #4c4c4c;
-}
-
-.submenu_item > a:hover
-{
-    color: #7f7f7f;
-}
-
-#selected_item
-{
-    opacity: .8;
-    background-color: white;
-}
 main
 {
     position: absolute;
@@ -130,46 +89,8 @@ iframe
     border: none;
 }
 
-#shadowbox
-{
-    display: none;
-    position: fixed;
-    z-index: 4;
-    
-
-}
-
-#shadowbox_back{
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    height: 100%;
-    opacity: 0.6;
-}
-
-#shadowbox_img
-{
-    position: absolute;
-
-    display: block;
-
-    margin: auto;
-}
-
-@media screen and (max-width: 935px)
-{
-    #content
-    {
-        //height: 180%;
-    }
-}
-
 @media screen and (max-width: 800px)
 {
-    #submenu
-    {
-        display: none;
-    }
     #banner
     {
         width: 100%;
