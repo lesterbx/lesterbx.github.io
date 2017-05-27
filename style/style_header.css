@@ -95,7 +95,12 @@ nav
     border-bottom: 1px solid #b3b3b3;
 }
 
-.drop_item
+.menu
+{
+    display: inline;
+}
+
+.menu > span
 {
     cursor: default;
 }
@@ -120,10 +125,7 @@ nav
     background-color: white;
 
 }
-.menu
-{
-    display: inline;
-}
+
 #dropdown_events
 {
     left: 4%;

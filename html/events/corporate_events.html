@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Weddings | MyEvents</title>
+	<title>Corporate | MyEvents</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../../style/style_header.css">
-	<link rel="stylesheet" type="text/css" href="../../style/style_common.css">
+	<link rel="stylesheet" type="text/css" href="../../style/style_main.css">
+	<link rel="stylesheet" type="text/css" href="../../style/style_shadowbox.css">
+	<link rel="stylesheet" type="text/css" href="../../style/style_submenu.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Lato:300i|Cookie" rel="stylesheet">
+
+	<script src="../../scripts/script_shadowbox.js"></script>
 </head>
 <body>
+
 	<header>
-		<a id="logo" href="../index.html">MyEvents</a>
+		<a id="logo" href="../../index.html">MyEvents</a>
 		<nav>
 				<div class="menu" id="menu_events">
-					<span class="menu_link" id="menu_item">Events</span>
+					<span class="menu_link drop_item">Events</span>
 					<div class="dropdown" id="dropdown_events">
 						<a class="menu_link" href="weddings.html">Weddings</a>	<br>
 						<a class="menu_link" href="birthday_parties.html">Birthday Parties</a>	<br>
@@ -20,7 +26,7 @@
 					</div>
 				</div>
 				<div class="menu" id="menu_locations">
-					<span class="menu_link" id="menu_item">Locations</span>
+					<span class="menu_link drop_item">Locations</span>
 					<div class="dropdown" id="dropdown_locations">
 						<a class="menu_link" href="../locations/gardens.html">Gardens</a>	<br>
 						<a class="menu_link" href="../locations/restaurants.html">Restaurants</a>	<br>
@@ -28,7 +34,7 @@
 					</div>
 				</div>
 				<div class="menu" id="menu_services">
-					<span class="menu_link" id="menu_item">Services</span>
+					<span class="menu_link drop_item">Services</span>
 					<div class="dropdown" id="dropdown_services">
 						<a class="menu_link" href="../services/catering.html">Catering</a>	<br>
 						<a class="menu_link" href="../services/live_music.html">Live Music</a>	<br>
@@ -42,11 +48,52 @@
 
 	<div id="submenu">
 		<h3>Events</h3>
-			<a href="weddings.html"><div class="submenu_item">Weddings</div></a>
+			<div class="submenu_item" ><a href="weddings.html">Weddings</a></div>
 			<img class="divisor" src="../../images/divi.png" width="150" height="9">
-			<a href="birthday_parties.html"><div class="submenu_item" >Birthday Parties</div></a>
+			<div class="submenu_item"><a href="birthday_parties.html">Birthday Parties</a></div>
 			<img class="divisor" src="../../images/divi.png" width="150" height="9">
-			<a href="corporate_events.html"><div class="submenu_item" id="selected_item">Corporate Events</div></a>
+			<div class="submenu_item" id="selected_item"><a href="corporate_events.html">Corporate Events</a></div>
 	</div>
+	
+	<main>
+		<div id="banner">
+			<img src="../../images/banners/banner_corporate.jpg">
+		</div>
+		<div id="content">
+			<h1>Corporate Events</h1>
+			<p>
+			Connecting with you, your employees and the unique culture of your business is our top priority! Let our party planners create a customized proposal with your preferred services. This process allows our event planner to create the perfect event, seamlessly blending your preferences with our professional offerings. You’ll find our experienced and professional team on the cutting edge of all of things event planning. We consistently introduce new, unique and innovative ideas into our events.
+			</p>
+			<iframe height="100%" scrolling="no" id="gallery" src="../../galleries/gallery_corporate.xml"></iframe>
+			<hr>
+			<footer>
+				<br>
+				MyEvents © 2017 - Web Design by Lester Pérez
+				</br></br></br>
+			</footer>
+		</div>
+
+
+
+		
+	</main>
+	
+	<div id="shadowbox">
+		<a onclick="closeBox()"><img src="../../images/close.png" width="50" height="50" id="close_box"></a>
+		<table>
+			<td>
+				<a onclick="prevImg()"><img src="../../images/arrow_l.png" width="50" height="50" class="arrow"></a>
+			</td>
+			<td id="img_td">
+				<img src="" id="shadowbox_img">
+			</td>
+			<td>
+				<a onclick="nextImg()"><img src="../../images/arrow_r.png" width="50" height="50" class="arrow"></a>
+			</td>
+			</tr>
+		</table>
+	</div>
+
+
 </body>
 </html>

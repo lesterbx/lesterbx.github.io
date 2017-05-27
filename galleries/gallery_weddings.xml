@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="gallery_weddings.xsl"?>
-<gallery>
+<?xml-stylesheet type="text/xsl" href="gallery_style.xsl"?>
+<gallery name="gallery_weddings">
 		<image id="1" file="../images/gallery_weddings/w01.png" file-tn="../images/gallery_weddings/w01-tn.png"/>
 		<image id="2" file="../images/gallery_weddings/w02.png" file-tn="../images/gallery_weddings/w02-tn.png"/>
 		<image id="3" file="../images/gallery_weddings/w03.png" file-tn="../images/gallery_weddings/w03-tn.png"/>

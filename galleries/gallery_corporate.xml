@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gallery_style.xsl"?>
+<gallery name="gallery_corporate">
+		<image id="1" file="../images/gallery_corporate/c01.jpg" file-tn="../images/gallery_corporate/c01-tn.jpg"/>
+		<image id="2" file="../images/gallery_corporate/c02.jpg" file-tn="../images/gallery_corporate/c02-tn.jpg"/>
+		<image id="3" file="../images/gallery_corporate/c03.jpg" file-tn="../images/gallery_corporate/c03-tn.jpg"/>
+		<image id="4" file="../images/gallery_corporate/c04.jpg" file-tn="../images/gallery_corporate/c04-tn.jpg"/>
+		<image id="5" file="../images/gallery_corporate/c05.jpg" file-tn="../images/gallery_corporate/c05-tn.jpg"/>
+		<image id="6" file="../images/gallery_corporate/c06.jpg" file-tn="../images/gallery_corporate/c06-tn.jpg"/>
+		<image id="7" file="../images/gallery_corporate/c07.jpg" file-tn="../images/gallery_corporate/c07-tn.jpg"/>
+		<image id="8" file="../images/gallery_corporate/c08.jpg" file-tn="../images/gallery_corporate/c08-tn.jpg"/>
+		<image id="9" file="../images/gallery_corporate/c09.jpg" file-tn="../images/gallery_corporate/c09-tn.jpg"/>
+		<image id="10" file="../images/gallery_corporate/c10.jpg" file-tn="../images/gallery_corporate/c10-tn.jpg"/>
+		<image id="11" file="../images/gallery_corporate/c11.jpg" file-tn="../images/gallery_corporate/c11-tn.jpg"/>
+		<image id="12" file="../images/gallery_corporate/c12.jpg" file-tn="../images/gallery_corporate/c12-tn.jpg"/>
+</gallery>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gallery_style.xsl"?>
+<gallery name="gallery_restaurants">
+		<image id="1" file="../images/gallery_restaurants/r01.png" file-tn="../images/gallery_restaurants/r01-tn.png"/>
+		<image id="2" file="../images/gallery_restaurants/r02.png" file-tn="../images/gallery_restaurants/r02-tn.png"/>
+		<image id="3" file="../images/gallery_restaurants/r03.png" file-tn="../images/gallery_restaurants/r03-tn.png"/>
+		<image id="4" file="../images/gallery_restaurants/r04.png" file-tn="../images/gallery_restaurants/r04-tn.png"/>
+</gallery>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gallery_style.xsl"?>
+<gallery name="gallery_birthdays">
+		<image id="1" file="../images/gallery_birthdays/b01.jpg" file-tn="../images/gallery_birthdays/b01-tn.jpg"/>
+		<image id="2" file="../images/gallery_birthdays/b02.jpg" file-tn="../images/gallery_birthdays/b02-tn.jpg"/>
+		<image id="3" file="../images/gallery_birthdays/b03.jpg" file-tn="../images/gallery_birthdays/b03-tn.jpg"/>
+		<image id="4" file="../images/gallery_birthdays/b04.jpg" file-tn="../images/gallery_birthdays/b04-tn.jpg"/>
+		<image id="5" file="../images/gallery_birthdays/b05.jpg" file-tn="../images/gallery_birthdays/b05-tn.jpg"/>
+		<image id="6" file="../images/gallery_birthdays/b06.jpg" file-tn="../images/gallery_birthdays/b06-tn.jpg"/>
+		<image id="7" file="../images/gallery_birthdays/b07.jpg" file-tn="../images/gallery_birthdays/b07-tn.jpg"/>
+		<image id="8" file="../images/gallery_birthdays/b08.jpg" file-tn="../images/gallery_birthdays/b08-tn.jpg"/>
+		<image id="9" file="../images/gallery_birthdays/b09.jpg" file-tn="../images/gallery_birthdays/b09-tn.jpg"/>
+		<image id="10" file="../images/gallery_birthdays/b10.jpg" file-tn="../images/gallery_birthdays/b10-tn.jpg"/>
+		<image id="11" file="../images/gallery_birthdays/b11.jpg" file-tn="../images/gallery_birthdays/b11-tn.jpg"/>
+		<image id="12" file="../images/gallery_bbirthdaysb12.jpg" file-tn="../images/gallery_birthdays/b12-tn.jpg"/>
+</gallery>
