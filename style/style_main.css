@@ -77,10 +77,10 @@ h1
     -webkit-box-shadow: 0 -1px 3px 0 LightGrey;
             box-shadow: 0 -1px 3px 0 LightGrey;
 }
-footer
-{
-    position: static;
+.bigImage{
+    width: 100%;
 }
+
 iframe
 {
     position: static;
@@ -97,10 +97,7 @@ iframe
 
 @media screen and (max-width: 800px)
 {
-    #banner
-    {
-        width: 100%;
-    }
+
     main
     {
         width: 100%;
