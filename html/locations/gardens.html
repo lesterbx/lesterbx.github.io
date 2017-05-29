@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gardens | MyEvents</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../../style/style_header.css">
+	<link rel="stylesheet" type="text/css" href="../../style/style_main.css">
+	<link rel="stylesheet" type="text/css" href="../../style/style_shadowbox.css">
+	<link rel="stylesheet" type="text/css" href="../../style/style_submenu.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300i|Cookie" rel="stylesheet">
+
+	<script src="../../scripts/script_shadowbox.js"></script>
+</head>
+<body>
+
+	<header>
+		<a id="logo" href="../../index.html">MyEvents</a>
+		<nav>
+				<div class="menu" id="menu_events">
+					<span class="menu_link drop_item">Events</span>
+					<div class="dropdown" id="dropdown_events">
+						<a class="menu_link" href="../events/weddings.html">Weddings</a>	<br>
+						<a class="menu_link" href="../events/birthday_parties.html">Birthday Parties</a>	<br>
+						<a class="menu_link" href="../events/corporate_events.html">Corporate Events</a>	<br>
+					</div>
+				</div>
+				<div class="menu" id="menu_locations">
+					<span class="menu_link drop_item">Locations</span>
+					<div class="dropdown" id="dropdown_locations">
+						<a class="menu_link" href="gardens.html">Gardens</a>	<br>
+						<a class="menu_link" href="restaurants.html">Restaurants</a>	<br>
+						<a class="menu_link" href="rooftops.html">RoofTops</a>
+					</div>
+				</div>
+				<div class="menu" id="menu_services">
+					<span class="menu_link drop_item">Services</span>
+					<div class="dropdown" id="dropdown_services">
+						<a class="menu_link" href="../services/catering.html">Catering</a>	<br>
+						<a class="menu_link" href="../services/live_music.html">Live Music</a>	<br>
+					</div>
+				</div>
+				
+				<a class="menu_link" href="../contact.html">Contact</a>
+
+		</nav>
+	</header>
+
+	<div id="submenu">
+		<h3>Locations</h3>
+			<div class="submenu_item" id="selected_item"><a href="gardens.html">Gardens</a></div>
+			<img class="divisor" src="../../images/divi.png" width="150" height="9">
+			<div class="submenu_item"><a href="restaurants.html">Restaurants</a></div>
+			<img class="divisor" src="../../images/divi.png" width="150" height="9">
+			<div class="submenu_item"><a href="rooftops.html">Rooftops</a></div>
+	</div>
+	
+	<main>
+		<div id="banner">
+			<img src="../../images/banners/banner_gardens.jpg">
+		</div>
+		<div id="content">
+			<h1>Gardens</h1>
+			<p>
+			Whether on a beach, in a ballroom or in a private backyard, our weddings reflect the lifestyles and personalities of each couple. We work closely with our brides and grooms to create unforgettable moments, not only for the couple, but also for their family and friends. Utilizing creative elements such as lighting and textured fabrics allow even the simplest of designs to leave a lasting impression.
+			</p>
+			<iframe height="100%" scrolling="no" id="gallery" src="../../galleries/gallery_gardens.xml"></iframe>
+			<hr>
+			<footer>
+				<br>
+				MyEvents © 2017 - Web Design by Lester Pérez
+				</br></br></br>
+			</footer>
+		</div>
+
+
+
+		
+	</main>
+	
+	<div id="shadowbox">
+		<a onclick="closeBox()"><img src="../../images/close.png" width="50" height="50" id="close_box"></a>
+		<table>
+			<td>
+				<a onclick="prevImg()"><img src="../../images/arrow_l.png" width="50" height="50" class="arrow"></a>
+			</td>
+			<td id="img_td">
+				<img src="" id="shadowbox_img">
+			</td>
+			<td>
+				<a onclick="nextImg()"><img src="../../images/arrow_r.png" width="50" height="50" class="arrow"></a>
+			</td>
+			</tr>
+		</table>
+	</div>
+
+
+</body>
+</html>

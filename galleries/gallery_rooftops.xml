@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="gallery_style.xsl"?>
 <gallery name="gallery_rooftops">
-		<image id="1" file="../images/gallery_rooftops/rt01.png" file-tn="../images/gallery_rooftops/rt01-tn.png"/>
-		<image id="2" file="../images/gallery_rooftops/rt02.png" file-tn="../images/gallery_rooftops/rt02-tn.png"/>
-		<image id="3" file="../images/gallery_rooftops/rt03.png" file-tn="../images/gallery_rooftops/rt03-tn.png"/>
-		<image id="4" file="../images/gallery_rooftops/rt04.png" file-tn="../images/gallery_rooftops/rt04-tn.png"/>
+		<image id="1" file="../images/gallery_rooftops/rt01.jpg" file-tn="../images/gallery_rooftops/rt01-tn.jpg"/>
+		<image id="2" file="../images/gallery_rooftops/rt02.jpg" file-tn="../images/gallery_rooftops/rt02-tn.jpg"/>
+		<image id="3" file="../images/gallery_rooftops/rt03.jpg" file-tn="../images/gallery_rooftops/rt03-tn.jpg"/>
+		<image id="4" file="../images/gallery_rooftops/rt04.jpg" file-tn="../images/gallery_rooftops/rt04-tn.jpg"/>
 
 </gallery>
