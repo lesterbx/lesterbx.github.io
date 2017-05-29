@@ -1,70 +1,81 @@
-body{
-	font-size: x-large;
-	margin: 0px;
-	background: url(../images/index_backgrounds/background01.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	font-family: 'Lato', sans-serif;
-  	
-  	transition: background-image 4s ease-in-out;
-	-webkit-transition: background-image 4s ease-in-out;
-	-moz-transition: background-image 4s ease-in-out;
+body
+{
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+
+    margin: 0;
+
+    -webkit-transition: background-image 4s ease-in-out;
+       -moz-transition: background-image 4s ease-in-out;
+            transition: background-image 4s ease-in-out;
+
+    background: url(../images/index_backgrounds/background01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
-@keyframes reviews_up{
-	from {
-		bottom: -20%;
-		opacity: 0;
-	}
-	to {
-		bottom: 0%;
-		opacity: 0.9;
-	}
+@keyframes reviews_up
+{
+    from
+    {
+        bottom: -20%;
+
+        opacity: 0;
+    }
+    to
+    {
+        bottom: 0;
+
+        opacity: .9;
+    }
 }
 
 
 
-#reviews{
-	font-style: italic;
-	padding: 1% 1% 1% 1%;
-	position: absolute;
-	font-size: large;
-	bottom: 0px;
-	width: 50%;
-	left: 25%;
-	background-color: white;
-	opacity: 0.9;
-	text-align: justify;
-	border-top-right-radius: 3px;
-	border-top-left-radius: 3px;
+#reviews
+{
+    font-size: large;
+    font-style: italic;
 
-	-webkit-box-shadow: 0px -1px 2px 0px gray;
-	-moz-box-shadow: 0px -1px 2px 0px gray;
-	box-shadow: 0px -1px 2px 0px gray;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
 
-	animation-name: reviews_up;
-	-webkit-animation-name: reviews_up;
-	-moz-animation-name: reviews_up;
+    width: 50%;
+    padding: 1% 1% 1% 1%;
 
-	animation-duration: 2s;
-	-webkit-animation-duration: 2s;
-	-moz-animation-duration: 2s;
+    -webkit-transition: opacity 2s ease-in-out;
+       -moz-transition: opacity 2s ease-in-out;
+            transition: opacity 2s ease-in-out;
+    -webkit-animation-name: reviews_up;
+       -moz-animation-name: reviews_up;
+            animation-name: reviews_up;
+    -webkit-animation-duration: 2s;
+       -moz-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+       -moz-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    text-align: justify;
 
-	animation-timing-function: ease-out;
-	-webkit-animation-timing-function: ease-out;
-	-moz-animation-timing-function: ease-out;
-
-	transition: opacity 2s ease-in-out;
-	-webkit-transition: opacity 2s ease-in-out;
-	-moz-transition: opacity 2s ease-in-out;
+    opacity: .9;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: white;
+    -webkit-box-shadow: 0 -1px 2px 0 gray;
+       -moz-box-shadow: 0 -1px 2px 0 gray;
+            box-shadow: 0 -1px 2px 0 gray;
 }
 
-#review_author{
-	float: right;
-	font-weight: bold;
+#review_author
+{
+    font-weight: bold;
+
+    float: right;
 }
 
-td{
-	padding-left: 5px;
+td
+{
+    padding-left: 5px;
 }

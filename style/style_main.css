@@ -25,7 +25,7 @@ main
     perspective: 10px;
 }
 #banner
-{   
+{
     position: absolute;
     z-index: 2;
     top: 0;
@@ -34,10 +34,10 @@ main
     height: 180px;
 
     transform: translateY(-130px) translateZ(-5px) scale(1.5);
-
 }
 
-#banner > img{
+#banner > img
+{
     width: 100%;
 }
 
