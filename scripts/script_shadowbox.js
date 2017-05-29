@@ -1,6 +1,7 @@
 var images = []; //Array para almacenar las rutas de las imagenes
 var currentImg; //Posicion de la imagen abierta en cada momento
 
+//Abro la imagen en grande, recibe el id de la imagen en la galeria y la galeria a usar
 function openBox(imgId, gallery){
 	currentImg = imgId-1;
 	var xhttp = new XMLHttpRequest();
