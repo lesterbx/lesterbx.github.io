@@ -42,7 +42,12 @@ h1
     color: #4c4c4c;
 }
 
-input
+form{
+    text-align: left; 
+    line-height: 50px;
+}
+
+.text_input
 {
     margin-left: 10px;
     padding: 5px;
@@ -50,6 +55,7 @@ input
     border: solid 1px LightGray;
     border-radius: 5px;
 }
+
 
 select
 {
@@ -63,3 +69,4 @@ textarea
     border: solid 1px LightGray;
     border-radius: 5px;
 }
+
